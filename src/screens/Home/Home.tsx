@@ -4,7 +4,7 @@ import './Home.css'
 import BaseLayout from '../../layouts/BaseLayout'
 const Home: React.FC = () => {
     return (
-        <BaseLayout footer={false}>
+        <BaseLayout>
             <div className="App">
                 <header className="App-header">
                     <img src={logo} className="App-logo" alt="logo" />
