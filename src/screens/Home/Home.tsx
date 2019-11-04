@@ -2,6 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import './Home.css'
 import BaseLayout from '../../layouts/BaseLayout'
+import { PlaceHolder } from '../../components/PlaceHolder'
 const Home: React.FC = () => {
     return (
         <BaseLayout>
@@ -20,6 +21,7 @@ const Home: React.FC = () => {
                         Learn React
                     </a>
                 </header>
+                <PlaceHolder />
             </div>
         </BaseLayout>
     )
