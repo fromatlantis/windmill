@@ -1,2 +1,2 @@
 # windmill
-ts:react(native) ui component
+ts ui component for react(native)
